@@ -1,0 +1,471 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text-color: #0B1B35;
+    --theme-color: #FF6600;
+    --secondary-color: black;
+}
+
+.main-container{
+    max-width: 1440px;
+    margin: auto;
+}
+.container{
+    width: 100%;
+}
+section{
+    width: 100%;
+    padding: 100px 50px;
+    margin: auto;
+}
+
+h1{
+    font-size: clamp(30px, 8vw, 70px);
+    font-weight: 800;
+    color: var(--text-color);
+}
+h2{
+    color: var(--text-color);
+    font-size: clamp(25px, 1vw, 52px);
+    font-weight: 700;
+}
+h3{
+    color: #1E0E62;
+    font-weight: 400;
+    font-size: clamp(22px, 8vw, 18px);
+}
+h4{
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    color: #8A898E;
+}
+p{
+    font-size: 18px;
+    color: var(--secondary-color);
+    line-height: 28.5px;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    padding: 48px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-self: baseline;
+}
+
+header .logo{
+    width: 20%;
+}
+header .logo img{
+    width: 100%;
+}
+
+.log-reg{
+    display: flex;
+    gap: 30px;
+    align-self: center;
+    align-self: baseline;
+}
+.login a{
+    color: var(--secondary-color);
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.login{
+    align-self: center;
+}
+nav svg{
+    display: none;
+}
+header button{
+    border: none;
+    width: 120px;
+    height: 49px;
+    background-color: var(--theme-color);
+    color: white;
+    align-self: baseline;
+    border-radius: 10px;
+}
+header button a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.home .container{
+    display: flex;
+    justify-content: space-between;
+}
+.home .text{
+    width: 100%;
+}
+h1{
+    margin-bottom: 30px;
+}
+.text .button{
+    padding-top: 30px;
+}
+.button .btn1{
+    width: 30%;
+    height: 49px;
+}
+.button{
+    display: flex;
+    align-self: baseline;
+    gap: 30px;
+}
+.btn1{
+    align-self: center;
+    background-color: var(--theme-color);
+    border-radius: 10px;
+    border: none;
+}
+.btn1 a{
+    color: white;
+}
+.btn2{
+    width: 40%;
+    background-color: transparent;
+    display: flex;
+    border: none;
+}
+.btn2 a{
+    margin-top: 20px;
+    margin-left: 10%;
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 18px;
+}
+.home .img{
+    position: relative;
+    width: 100%;
+}
+.home .img .raiting{
+    position: absolute;
+    left: -100px;
+    top: 0px;
+    width: 80%;
+    height: auto;
+}
+.guy{
+    position: absolute;
+    z-index: 10;
+    left: 60px;
+    top: -10px;
+    width: 80%;
+    height: auto;
+}
+.grup10{
+    width: 90%;
+    height: auto;
+}
+.top{
+    text-align: center;
+}
+.top h4{
+    margin-bottom: 10px;
+}
+.service .row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.cards{
+    max-width: 352px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 508px;
+    justify-content: space-evenly;
+    padding: 0px 5px;
+    box-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px #00000005;
+
+box-shadow: 0px 6.650102138519287px 5.32008171081543px 0px #00000007;
+
+box-shadow: 0px 12.521552085876465px 10.017241477966309px 0px #00000009;
+
+box-shadow: 0px 22.3363094329834px 17.869047164916992px 0px #0000000B;
+
+box-shadow: 0px 41.777610778808594px 33.422088623046875px 0px #0000000D;
+
+box-shadow: 0px 100px 80px 0px #00000012;
+border-radius: 28px;
+
+
+}
+.cards button{
+    width: 55%;
+    height: auto;
+    padding: 15px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--theme-color);
+}
+.cards button a{
+    color: white;
+}
+.bottom-part{
+    display: flex;
+    padding-top: 200px;
+    justify-content: space-between;
+}
+.bottom-part .text{
+    width: 30%;
+}
+.bottom-part .text h3{
+    margin-bottom: 30px;
+}
+.bottom-part .text p{
+    margin-bottom: 70px;
+}
+.bottom-part .text button{
+    width: 40%;
+    height: 48px;
+    border: #EBEAED 1px solid;
+    background-color: transparent;
+    border-radius: 100px;
+}
+.video{
+    width: 50%;
+}
+.video img{
+    width: 100%;
+}
+.testimonial{
+    padding: 100px 0;
+
+}
+.testimonial .top{
+    text-align: center;
+}
+.testimonial .content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    justify-content: center;
+    gap: 130px;
+    padding-top: 100px;
+}
+.clients{
+   display: flex;
+   gap: 30px;
+}
+.clients img{
+    width: 70px;
+    height: 70px;
+}
+.clients p{
+    margin-bottom: 20px;
+}
+.clients h6{
+    font-size: 14px;
+    color: gray;
+}
+.team .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    flex-wrap: wrap;
+}
+.cards1{
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 370px;
+    border: rgb(200, 200, 200) 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+.cards1 img{
+    margin-top: 40px;
+}
+.cards1 p{
+    color: #1514397a;
+}
+.card-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card-bottom button{
+    width: 33.5%;
+    height: 60px;
+    border-bottom: none;
+    border-top: rgb(200, 200, 200) 1px solid;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+}
+.card-bottom button img{
+    margin-top: 5px;
+}
+.card-bottom .facebook{
+    border-left: rgb(200, 200, 200) 1px solid;
+    border-right: rgb(200, 200, 200) 1px solid;
+
+}
+.contact .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+.contact .content .img{
+    width: 40%;
+}
+.contact .content .img img{
+    width: 100%;
+    height: auto;
+}
+.contact .content form{
+    width: 60%;
+    text-align: start;
+}
+form p{
+    margin-bottom: 40px;
+}
+form input{
+    width: 100%;
+    border-radius: 40px;
+    height: 70px;
+    
+    border: 1px solid gray;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    
+    
+    
+}
+::placeholder{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+form button{
+    width: 100%;
+    border-radius: 20px;
+    height: 70px;
+    background-color: var(--theme-color);
+    border: none;
+}
+form button a{
+    color: white;
+    font-size: 18px;
+}
+@media only screen and (max-width: 1000px){
+    nav ul{
+        display: none;
+    }
+    nav svg{
+        display: block;
+        width: 40px;
+        height: 30px;
+        fill: var(--theme-color);
+    }
+    header .logo{
+        align-self: center;
+    }
+    .home .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        text-align: center;
+    }
+    .home{
+        margin-bottom: 100px;
+    }
+    .button{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 768px){
+    .service .row{
+        justify-content: center;
+    }
+    .testimonial .content{
+        grid-template-columns: 80%;
+    }
+    .team .content{
+        justify-content: center;
+    }
+    .contact .content{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .contact .content .img{
+        margin-bottom: 50px;
+    }
+    .service .bottom-part{
+        flex-direction: column;
+        align-items: center;
+    }
+    .service .bottom-part .text{
+        width: 90%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .video{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .log-reg{
+        flex-direction: column-reverse;
+    }
+    .log-reg div{
+        width: 50px;
+    }
+    .log-reg button{
+        width: 100px;
+    }
+    .logo a img{
+        width: 100px;
+    }
+    .button{
+        flex-direction: column;
+        align-items: center;
+    }
+    .button .btn1{
+        width: 90%;
+    }
+    .button .btn2{
+        width: 90%;
+    }
+    .home .img{
+        left: 30px;
+    }
+    ::placeholder{
+        font-size: 15px;
+    }
+    .contact .content form{
+        width: 100%;
+    }
+    .contact input{
+       width: 100%;
+    }
+    .contact button{
+        padding: 0 10px;
+    }
+    .contact button a{
+        font-size: 15px;
+    }
+}
